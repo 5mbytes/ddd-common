@@ -1,0 +1,23 @@
+{
+    "name": "5mbytes/ddd-common",
+    "description": "DDD helpers library.",
+    "keywords": ["ddd"],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/5mbytes/ddd-common"
+    },
+    "authors": [
+        {
+            "name": "Victor Levandovski",
+            "email": "fivemegabytes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DddCommon\\": "src/"
+        }
+    }
+}
